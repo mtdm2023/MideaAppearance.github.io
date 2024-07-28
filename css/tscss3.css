@@ -1,0 +1,172 @@
+@import url('tscss1.css');
+
+
+ 
+@media (min-width: 1127px) and (max-width:3000px) {  
+    /* height Imgs */ 
+    :root{
+        --tsfs-scale: 0.75 !important;
+    }
+    .counter2::before {
+        content: 'رئيس تنفيذي';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .counter1::before {
+        content: 'جهة مستفيد';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .counter3::before {
+        content: 'متحدث رسمي';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .card_body{
+        overflow: hidden;
+      }
+}
+
+@media (min-width: 768px) and (max-width:1126.98px) {  
+
+    :root{
+        --tsfs-scale: 0.55 !important;
+    }
+   .section3_container_bg .container{
+    min-width: 906px !important;
+   }
+   #poligon-container{
+    padding-right: 0px !important;
+   }
+   .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+  
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+
+
+@media (min-width:200px) and (max-width:769.98px) {
+    :root{
+        --tsfs-scale: 0.45 !important;
+    }
+    
+    .counter2::before {
+        content: 'رئيس تنفيذي';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .counter1::before {
+        content: 'جهة مستفيد';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .counter3::before {
+        content: 'متحدث رسمي';
+        position: absolute;
+        top: 105%;
+        right: calc(32% + var(--screen-width) / 53) !important;
+        color: var(--bs-color-2);
+        height: 100%;
+        width: 100%;
+        font-family: IBMRegular;
+    }
+    .card_body{
+        overflow: hidden;   
+    }
+    #line1{
+        transform: rotate(90deg);
+    }
+    #line2{
+        transform: rotate(90deg);
+    }
+    #poligon-container{
+        display: flex;
+        flex-direction: column;
+        gap: 106px;
+    }
+      .section3_container_bg .container, .container-sm {
+          max-width: 298px !important;
+    }
+
+ 
+    .section3_container_bg .container, .container-sm {
+            max-width: 298px !important;
+        }
+        .footer_text{
+            padding-right: 47px !important;
+           }
+          
+           .footer_logo {
+            width: 47%;
+            height: 44%;
+            min-width: 186px;
+            min-height: 109px;
+        }
+        
+        .sin_More {
+            padding-right: 17px !important;
+            padding-top: 249px !important;
+        }
+        .card_body {
+            max-width: 335px;
+            width: 114%;
+            height: calc(3* 70px);
+            background-color: var(--bs-color-7);
+          
+        }
+        .card_header {
+            max-width: 335px;
+            width: 114%;
+            height: 51px;
+            background-color: var(--bs-color-2);
+          }
+          .carousel-inner .carousel-item > div:first-child {
+            display: block;
+          }
+}
+
+/* sm */
+
+/* Xs */
+
+
+
+
+    
+
+
+  
+  
+  
+

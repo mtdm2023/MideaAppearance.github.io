@@ -1,0 +1,68 @@
+/* variables */
+:root {--tsfs-scale: 0.75;
+    --tswd-scale: 0.75;
+    --tslogo-scaleH: 1;
+    --tslogo-scaleF: 1;
+    --tswd-logoh: calc(221px * var(--tslogo-scaleH));
+    --tswd-logof: calc(221px * var(--tslogo-scaleF));
+    --tsfs-90: calc(75px * var(--tsfs-scale));
+    --tsfs-70: calc(65px * var(--tsfs-scale));
+    --tsfs-64: calc(60px * var(--tsfs-scale));
+    --tsfs-50: calc(45px * var(--tsfs-scale));
+    --tsfs-40: calc(35px * var(--tsfs-scale));
+    --tsfs-38: calc(33px * var(--tsfs-scale));
+    --tsfs-32: calc(30px * var(--tsfs-scale));
+    --tsfs-30: calc(28px * var(--tsfs-scale));
+    --tsfs-26: calc(24px * var(--tsfs-scale));
+    --tsfs-24: calc(22px * var(--tsfs-scale));
+    --tsfs-22: calc(20px * var(--tsfs-scale));
+    --tsfs-20: calc(18px * var(--tsfs-scale));
+    --tsfs-16: calc(14px * var(--tsfs-scale));
+    --bs-color-1:#C8BFB0;
+    --bs-color-2:#C1AC7F;
+    --bs-color-3:#EEEEEE;
+    --bs-color-4:#808080;
+    --bs-color-5:#000000;
+    --bs-color-6:#C3B18B;
+    --bs-color-7:#F2F2F2;
+    --bs-color-8:#A37B2C;
+    --screen-width: 100vw;   /* this value default and this variable is changed every the screen width is changed* and get updated in tsmain.js*/
+    --screen-height: 100vw;
+    --bs-first_Counter : 10;  /* this value default and this variable is changed every the screen height is changed and get updated in tsmain.js*/
+    --bs-second_Counter: 0;  /* this value default and this variable is changed every the screen height is changed and get updated in tsmain.js*/
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: IBMBold;
+    src: url('../font/IBMPlexSansArabic-Bold.ttf');
+}
+@font-face {
+    font-family: IBMExtraLight;
+    src: url('../font/IBMPlexSansArabic-ExtraLight.ttf');
+}
+@font-face {
+    font-family: IBMLight;
+    src: url('../font/IBMPlexSansArabic-Light.ttf');
+}
+@font-face {
+    font-family: IBMMedium;
+    src: url('../font/IBMPlexSansArabic-Medium.ttf');
+}
+@font-face {
+    font-family: IBMRegular;
+    src: url('../font/IBMPlexSansArabic-Regular.ttf');
+}
+@font-face {
+    font-family: IBMSemiBold;
+    src: url('../font/IBMPlexSansArabic-SemiBold.ttf');
+}
+.IBMBold{font-family: IBMBold;}
+.IBMExtraLight{font-family: IBMExtraLight;}
+.IBMLight{font-family: IBMLight;}
+.IBMMedium{font-family: IBMMedium;}
+.IBMRegular{font-family: IBMRegular;}
+.IBMSemiBold{font-family: IBMSemiBold;}
+
